@@ -1,0 +1,119 @@
+
+ .equipos {background-color: #ffffff;
+    height: 70vh;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    margin-bottom: 0;
+ } 
+
+ .equipos ul {list-style-type: none;
+    gap: 40vh;
+
+ }
+
+ .equipos ul li {margin: 10vh;
+
+ }
+
+ .equipos_texto h1 {
+font-size: 60px;
+margin-left: 40vh;
+margin-right: 40vh;
+ }
+
+ .equipos_texto p {
+font-size: 20px;   
+margin-left: 40vh;
+margin-right: 40vh;
+ }
+ .equipos_buttons {display: flex; 
+    justify-content: center; 
+    align-items: center;
+
+ }
+
+ .equipos_buttons button { font-size: 20px;
+   text-align: center;
+   width: 50vh;
+   height: 8vh;
+   border: solid;
+   border-radius: 10px;
+
+ }
+ .button_empresa {
+    background-color:#4A164B;
+    color: #ffffff;
+  
+  }
+  
+  .button_ventas {
+    background-color: #ffffff;
+    color: #4A164B;
+    border-color: #4A164B;
+   
+  }
+
+  .equipos_estadísticas {
+   background-color: #ffffff;
+   margin-top: 0;
+  }
+  .equipos_estadísticas ul {list-style-type: none;
+   display: grid;
+grid-template-columns: 33% 33% 33%;
+margin-left: 20vh;
+margin-bottom: 0;
+  }
+  
+  .porcentajes {color: #4A164B;
+   font-size: 70px;
+   font-weight: bolder;
+
+  }
+
+  .porcentajes_texto ul {list-style-type: none;
+   display: grid;
+grid-template-columns: 15% 18% 15% 18% 15%;
+margin-left: 20vh;
+margin-top: 0;
+  }
+
+  .declaraciones
+  {display: grid;
+    grid-template-columns: 50% 50%;
+    margin-left: 10vh;
+    margin-top: 2vh;
+
+  }
+
+  .declaraciones video{
+   height: 40vh;
+   width: 80%;
+   pointer-events: none;
+  
+
+ }
+
+ .declaraciones a {font-size: 20px;
+   color: #1364A3;
+   text-decoration: none;
+
+ }
+
+ .declaraciones a:hover {
+   text-decoration-line: underline;
+   text-decoration-color: #1364A3;
+ }
+  .video_declaraciones  {
+background-color: #ffffff;   
+  }
+
+  .declaraciones_texto p {font-size: 20px;
+   margin-right: 2vh;
+
+  }
+
+  .asteriscos {display: flex;
+   justify-content: center;
+   font-size: 12px;
+  }

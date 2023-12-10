@@ -1,0 +1,74 @@
+
+
+.register {background-color:#4A164B ;
+    display: grid;
+    grid-template-columns: 55% 45%;
+    padding-top: 0;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 0;
+
+}
+
+.register h1 {color: #ffffff;
+    font-size: 3rem;
+
+}
+
+.register h2 {color: #ECB12F;
+    font-size: 2rem;
+
+}
+
+.register p {color: #ffffff;
+    font-size: 1rem;
+
+}
+
+.register_text {padding: 1vh;
+
+}
+
+.register_video {padding-top: 5vh;
+
+}
+
+.register_video video{
+    height: 25rem;
+    width: 42rem;
+    pointer-events: none;
+  
+  }
+
+  .register_text button {width: 50rem;
+    height: 3rem;
+    margin: 1vh;
+    
+  }
+
+  .email_button {color: #4A164B;
+    font-size: 16px;
+    background-color: #ffffff;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .google_button {
+    color: #ffffff;
+    font-size: 16px;
+    background-color: #4284F3;
+    border: none;
+    border-radius: 3px;
+
+  }
+
+  .google_button img {width: 10;
+    height: 2.8rem;
+    float: left;
+
+  }
+
+  .google_button h4 {
+    margin-top: 2vh;
+  }
